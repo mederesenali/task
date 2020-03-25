@@ -1,0 +1,142 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0 5px;
+  margin: 0;
+  background-color: transparent;
+}
+
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.header-col {
+  box-sizing: border-box;
+  flex: 0 1 14%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.task {
+  flex: 0 1 25px;
+  width: 25px;
+  height: 25px;
+  background-color: azure;
+  border: 1px solid lightgray;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.day {
+  box-sizing: border-box;
+  border: 1px solid black;
+  flex: 0 1 14%;
+  background-color: gainsboro;
+  height: 120px;
+}
+
+.day:hover {
+  background-color: lightgreen;
+  transition-duration: 0.1s;
+  transition-property: 'background-color';
+}
+
+.day-title {
+  margin-bottom: 5px;
+  padding: 2px 0 0 5px;
+}
+
+.shift2 {
+  margin-left: 14%;
+}
+
+.shift3 {
+  margin-left: 28%;
+}
+
+.shift4 {
+  margin-left: 42%;
+}
+
+.shift5 {
+  margin-left: 56%;
+}
+
+.shift6 {
+  margin-left: 70%;
+}
+
+.shift7 {
+  margin-left: 84%;
+}
+
+.today {
+  background-color: lemonchiffon;
+}
+
+.message {
+  background-color: lightcoral;
+}
+
+.task-row {
+  padding: 5px 0;
+}
+
+.odd {
+  background-color: gainsboro;
+}
+
+.task-type {
+  flex: 0 1 35px;
+  width: 35px;
+  height: 35px;
+  background-color: azure;
+  border: 1px solid lightgray;
+}
+
+.task-name {
+  flex: 1 0 20%;
+  padding-left: 10px;
+}
+
+.task-description {
+  flex: 1 0 500px;
+}
+
+.task-actions {
+  flex: 1 0 1%;
+  padding-left: 10px;
+}
+
+.urgent {
+  background-color: brown;
+}
+
+.shopping {
+  background-color: darkgreen;
+}
+
+.work {
+  background-color: cornflowerblue;
+}
